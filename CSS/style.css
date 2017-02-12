@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding:50px;
+  /*background-color:#f9f9f9;*/
+  /*#e8fd81;*/
+}
+header {
+  background-color:#dddddd;
+  height:250px;
+  margin:0;
+  position:relative;
+}
+.header_type {
+  font-size: 60px;
+  font-family: 'Francois One', sans-serif;
+  position:absolute;
+  top:100px;
+  left:50px;
+  color:#254fa5;
+}
+.logo {
+  float:right;
+  position:absolute;
+  right:30px;
+  top:20px;
+}
+
+h1, h2 {
+  font-family: 'Francois One', sans-serif;
+}
+
+h3 {
+  font-family: 'Francois One', sans-serif;
+}
