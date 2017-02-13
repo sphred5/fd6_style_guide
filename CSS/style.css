@@ -61,6 +61,26 @@ h3 {
   font-family: 'Francois One', sans-serif;
   color:#254fa5;
 }
+form {
+  background-color:#dddddd;
+  padding-left:100px;
+  width:70%;
+}
+
+input {
+  height:30px;
+  border-radius: 2px;
+  margin:10px;
+  width:50%;
+}
+.boxes {
+  width:15px;
+}
+textarea {
+  width:450px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
 button {
   height:45px;
   width:85px;
