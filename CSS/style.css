@@ -31,11 +31,42 @@ header {
   right:30px;
   top:20px;
 }
+hr {
+  height:4px;
+  background-color:#ce2f31;
+}
+nav {
+  margin:0 auto;
+  background-color:#ce2f31;
+}
+nav li {
+  list-style: none;
+  display:inline-block;
+  padding:20px;
+  width:125px;
+  text-align: center;
+  background-color: #ce2f31;
+  color:white;
+}
+nav li:hover {
+  background-color:#254fa5;
+}
 
 h1, h2 {
   font-family: 'Francois One', sans-serif;
+  color:#254fa5;
 }
 
 h3 {
   font-family: 'Francois One', sans-serif;
+  color:#254fa5;
+}
+button {
+  height:45px;
+  width:85px;
+}
+.footer {
+  height:150px;
+  width: 100%;
+  background-color:#dddddd;
 }
