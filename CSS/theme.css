@@ -88,7 +88,7 @@ input[type='text'], textarea {
 }
 
 input[type='text']:focus, textarea:focus {
-  border: 2px solid rgba(0,0,0,1);
+  border: 2px solid #ce2f31;
   outline: none;
 }
 input[type='text'] {
