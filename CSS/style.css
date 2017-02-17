@@ -1,86 +1,18 @@
-body {
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f5f3e7;
-  margin:0;
-}
-
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  padding:50px;
-  /*background-color:#f9f9f9;*/
-  /*#e8fd81;*/
-}
-header {
+header.main {
   background-color:#dddddd;
   height:250px;
   margin:0;
-  position:relative;
 }
-.header_type {
-  font-size: 60px;
-  font-family: 'Francois One', sans-serif;
-  position:absolute;
-  top:100px;
-  left:50px;
-  color:#254fa5;
-}
+
 .logo {
   float:right;
   position:absolute;
   right:30px;
   top:20px;
 }
-hr {
-  height:4px;
-  background-color:#ce2f31;
-}
-.nav-background{
-  width:50%;
-  height:62px;
-  background-color:#ce2f31;
-  z-index: -3;
-  float:left;
-  position:absolute;
-}
-nav {
-  background-color:#ce2f31;
-  float:right;
-  z-index: 1;
 
-}
-nav li {
-  list-style: none;
-  display:inline-block;
-  padding:20px;
-  width:125px;
-  text-align: center;
-  color:white;
-}
-nav li:hover {
-  background-color:#254fa5;
-}
-
-h1, h2 {
-  font-family: 'Francois One', sans-serif;
-  color:#254fa5;
-}
-
-h3 {
-  font-family: 'Francois One', sans-serif;
-  color:#254fa5;
-}
-.font1 {
-  font-family:'Francois One';
-  color:black;
-}
-.font2 {
-  font-family: 'open sans';
-  color:black;
-}
 .swatch {
-    height:50px;
+  height:50px;
   width: 100px;
   display: inline-block;
   text-align: center;
@@ -98,34 +30,4 @@ h3 {
 }
 .swatch:nth-of-type(4){
   border:1px solid black;
-}
-form {
-  padding-left:100px;
-  width:70%;
-}
-
-input {
-  height:30px;
-  border-radius:2px;
-  border: none;
-  margin:10px;
-  width:50%;
-}
-.boxes {
-  width:15px;
-}
-textarea {
-  width:450px;
-  border-radius: 5px;
-  margin-top: 15px;
-  border:none;
-}
-button {
-  height:45px;
-  width:85px;
-}
-.footer {
-  height:150px;
-  width: 100%;
-  background-color:#dddddd;
 }
